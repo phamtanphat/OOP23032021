@@ -2,9 +2,7 @@ package com.example.oop23032021;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Person;
 import android.os.Bundle;
-import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,9 +18,15 @@ public class MainActivity extends AppCompatActivity {
 
         // Class => Kiểu dữ liệu
 
-        Animal meo = new Animal("Mi mi", "Xám");
 
-        Log.d("BBB",meo.name);
+//        Log.d("BBB",meo.name);
+//
+        Cat meo = new Cat("mimi" , "Xám");
 
+        // Tính bao đóng
+        // Tính kế thừa
+        // Tính đa hình
+        // Tính trừu tượng
     }
+
 }
