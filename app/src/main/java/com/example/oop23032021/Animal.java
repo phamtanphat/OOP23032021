@@ -5,7 +5,11 @@ public class Animal {
     String name;
     String color;
 
-    // phương thức
+    // phương thức khởi tạo
+    public Animal(String name , String color){
+        this.name = name;
+        this.color = color;
+    }
 
 }
 

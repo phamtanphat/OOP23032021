@@ -20,9 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Class => Kiểu dữ liệu
 
-        Animal meo = new Animal();
-        meo.color = "Xám";
-        meo.name = "Mi mi";
+        Animal meo = new Animal("Mi mi", "Xám");
 
         Log.d("BBB",meo.name);
 
