@@ -4,23 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseAcitivity{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        // overload : phương thức nạp chồng
-//        1 : Các phương thức nạp chồng cùng nằm trên 1 vị trí
-//        2 : Các phương thức nạp chồng phải khác với nhau về tham số truyền vào
-        // Tính bao đóng
-        // Tính kế thừa
-        // Tính đa hình
-        // Tính trừu tượng
-
+    int getLayout() {
+        return R.layout.activity_main;
     }
 
-
+    @Override
+    void onCreate() {
+        Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show();
+    }
 }
