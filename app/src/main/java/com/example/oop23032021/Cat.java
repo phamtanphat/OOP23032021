@@ -11,10 +11,8 @@ public class Cat extends Animal{
         super(name, color);
     }
 
-    // 1 : Phương ghi đè nằm ở hai nơi khác nhau
-    // 2 : Phương thức ghi đè chỉ thay đổi logic code còn lại không thay đổi
 
-
+    // Tính đa hình ?
     @Override
     public void setName(String name) {
         super.setName(name);

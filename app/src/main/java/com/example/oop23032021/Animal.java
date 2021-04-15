@@ -22,7 +22,7 @@ public class Animal {
         }
         this.name = name;
     }
-    // alt + insert
+
 
 
     public String getColor() {
