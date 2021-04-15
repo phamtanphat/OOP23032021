@@ -3,6 +3,7 @@ package com.example.oop23032021;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 //        Log.d("BBB",meo.name);
 //
         Cat meo = new Cat("mimi" , "Xám");
+        meo.setName("Milu");
+        Log.d("BBB",meo.getName());
 
         // Tính bao đóng
         // Tính kế thừa
